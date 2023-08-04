@@ -1,0 +1,8 @@
+* Arabic Root Validator
+Validate Arabic roots through a thorough search in Arabic classic/modern
+lexicons.
+
++Before using, please do note that this program is not designed to be used actively but moderately; so it loads every raw material book source into the memory at once, this might cause problems and insufficiency if this is employed in a real-time service.+
+
+** Implemented lexicons:
++ Mukhtar Alsahah.

@@ -1,0 +1,6 @@
+github.com/01walid/goarabic v0.0.1 h1:3zZHwUpdYTnFlPuKzwD/j/xinIhAeFEoq61aFMJKV9s=
+github.com/01walid/goarabic v0.0.1/go.mod h1:Q+FvyKHDS8E3qNzZ76sdyr2D6yYeDW2QRY0t4Mx4CZI=
+github.com/01walid/goarabic v0.0.2-0.20221128123931-3da18419feb6 h1:GSd7HXgF6hkN+qCJMv9atpC7IX5UCAqjDp1WQKvBPWY=
+github.com/01walid/goarabic v0.0.2-0.20221128123931-3da18419feb6/go.mod h1:Q+FvyKHDS8E3qNzZ76sdyr2D6yYeDW2QRY0t4Mx4CZI=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
