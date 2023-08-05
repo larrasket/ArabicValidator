@@ -5,4 +5,5 @@ lexicons.
 +Before using, please do note that this program is not designed to be used actively but moderately; so it loads every raw material book source into the memory at once, this might cause problems and insufficiency if this is employed in a real-time service.+
 
 ** Implemented lexicons:
-+ Mukhtar Alsahah.
++ Mukhtar Alsahah ([[https://shamela.ws/book/23193][source]]).
++ al-Misbah al-munir fi gharib al-sharh al-kabir ([[https://shamela.ws/book/12145][source]])
