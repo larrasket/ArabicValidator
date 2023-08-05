@@ -7,3 +7,9 @@ lexicons.
 ** Implemented lexicons:
 + Mukhtar Alsahah ([[https://shamela.ws/book/23193][source]]).
 + al-Misbah al-munir fi gharib al-sharh al-kabir ([[https://shamela.ws/book/12145][source]])
++ Taj Al-ʿArus min Jawahir Al-Qamus ([[https://shamela.ws/book/7030][source]])
++ Asas al-Balagha ([[https://shamela.ws/book/21568][source]])
+
+** Usage
+Use ~ArabicValidator.Search("your word here")~ to search for a root word in the
+provided resources, if it was found then it's a legit root.
