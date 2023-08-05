@@ -18,7 +18,7 @@ import (
 // 4) Remove non-letters.
 // 5) Replace hamza‟s forms ‫ء‬ , ‫آ‬, ‫إ‬ , ‫ا‬ ,‫ة‬ with‫أ‬ .
 // 6) Duplicating any letter that has the (Shaddah symbol. " َّ ")
-func Normalize(w string) string {
+func normalize(w string) string {
 	// 1) Remove kasheeda symbol ("_").
 	w = RemoveTatweel(w)
 	// 2) Remove punctuations.

@@ -25,7 +25,7 @@ var Sources []*Source
 var rawFiles embed.FS
 
 // TODO write test
-func TextSearch(r, w string) (*SearchResult, error) {
+func textSearch(r, w string) (*SearchResult, error) {
 	f, err := rawFiles.Open(filepath.Join("files", r))
 	if err != nil {
 		err = errors.Wrapf(err, "couldn't open source for %s", r)
@@ -47,7 +47,7 @@ func TextSearch(r, w string) (*SearchResult, error) {
 	return &s, nil
 }
 
-func NewNromalizedSource(name string, year uint16, raw string) *Source {
+func newNromalizedSource(name string, year uint16, raw string) *Source {
 	s := Source{
 		Name: name,
 		Year: year,
@@ -55,16 +55,16 @@ func NewNromalizedSource(name string, year uint16, raw string) *Source {
 	}
 
 	s.Search = func(w string) (*SearchResult, error) {
-		return TextSearch(s.Raw, w)
+		return textSearch(s.Raw, w)
 	}
 	return &s
 }
 
 func init() {
 	Sources = []*Source{
-		NewNromalizedSource("Mukhtar Alsahah", 1267, "mukhtar.txt"),
-		NewNromalizedSource("al-Misbah al-munir fi gharib al-sharh al-kabir", 1368, "misbah.txt"),
-		NewNromalizedSource("Taj al-ʿArus Min Jawahir al-Qamus", 1790, "taj.txt"),
-		NewNromalizedSource("Asas al-Balagha", 1143, "asas.txt"),
+		newNromalizedSource("Mukhtar Alsahah", 1267, "mukhtar.txt"),
+		newNromalizedSource("al-Misbah al-munir fi gharib al-sharh al-kabir", 1368, "misbah.txt"),
+		newNromalizedSource("Taj al-ʿArus Min Jawahir al-Qamus", 1790, "taj.txt"),
+		newNromalizedSource("Asas al-Balagha", 1143, "asas.txt"),
 	}
 }

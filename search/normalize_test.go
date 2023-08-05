@@ -18,7 +18,7 @@ func TestNormalize(t *testing.T) {
 	// The execution loop
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			ans := Normalize(tt.input)
+			ans := normalize(tt.input)
 			if ans != tt.want {
 				t.Errorf("got %s, want %s", ans, tt.want)
 			}
