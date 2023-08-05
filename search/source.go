@@ -64,5 +64,6 @@ func init() {
 	Sources = []*Source{
 		NewNromalizedSource("Mukhtar Alsahah", 1267, "mukhtar.txt"),
 		NewNromalizedSource("al-Misbah al-munir fi gharib al-sharh al-kabir", 1368, "misbah.txt"),
+		NewNromalizedSource("Taj al-ʿArus Min Jawahir al-Qamus", 1790, "taj.txt"),
 	}
 }
